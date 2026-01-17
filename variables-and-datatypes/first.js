@@ -1,6 +1,6 @@
 //console.log("My name is Fatima Qaisar");
 //console.log("I love JS.;")
-/*fullName="Fatima Qaisar";
+fullName="Fatima Qaisar";
 console.log("Name:", fullName);
 price= 6.99;
 x=null;
@@ -62,7 +62,7 @@ const student = {
 console.log(student);
 console.log(student["fulName"]); //2 ways to access values in objects
 console.log(student.age);
-*/
+
 
 //Practice 
 const product={
