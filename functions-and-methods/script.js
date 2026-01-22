@@ -43,7 +43,7 @@ function countVowels(str){
      return count;
 }
 
-let numOfVowels=countVowels("Rabbit");
+let numOfVowels=countVowels("Rabbit is cute");
 console.log(numOfVowels);
 
 const countVow=(str)=>{
@@ -59,3 +59,13 @@ const countVow=(str)=>{
      }
      return count;
 }
+
+let arr =[1,2,3,4,5];                     //forEach will take each element of array and pass it to function as value
+arr.forEach(function printVal(val){      //value at each ndex
+      console.log(val);
+});
+
+let arr2=["Lahore", "Multan", "Faisalabad"];
+arr2.forEach((val, i, arr)=>{
+    console.log(val.toUpperCase(), i, arr);
+});
