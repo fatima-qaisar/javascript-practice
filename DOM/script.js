@@ -14,4 +14,6 @@ console.dir(document.head);
 document.body.childNodes[5].innerText= "Hello. How are you";
 let heading=document.getElementById("heading");//this will return value which can be saved in a variable.
 console.dir(heading);
-
+let texts=document.getElementsByClassName("text"); //returns an html collection -> very similar to an array
+console.dir(texts)
+console.log(texts);
