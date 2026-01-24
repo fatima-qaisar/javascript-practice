@@ -9,5 +9,9 @@ console.dir(window.document); //to see properties of document
 //console.dir ->to print properties and methods of special objects. it is also a part of the window object. ->object gets printed
 
 console.log(document.body);
-console.dir(document.body);
+console.dir(document.body.childNodes[1]); //childNodes -> aik node mai kitne nodes hain
+console.dir(document.head);
+document.body.childNodes[5].innerText= "Hello. How are you";
+let heading=document.getElementById("heading");//this will return value which can be saved in a variable.
+console.dir(heading);
 
