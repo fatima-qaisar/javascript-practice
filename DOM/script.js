@@ -50,6 +50,21 @@ console.log(div2.innerHTML);
 
 let heading2=document.querySelector("h2"); //its visibility is hidden so we use textContent property to see its text
 
+let h5=document.querySelector("h5");
+console.dir(h5.innerText);
+h5.innerText=h5.innerText+" from Apna College.";
+console.dir(h5.innerText);
+
+let boxDivs=document.querySelectorAll(".box");
+console.log(boxDivs[0]); //node list works like arrays. values can be accessed index wise
+let i=0;
+for(boxDiv of boxDivs){
+    console.log(boxDiv.innerText);
+    boxDivs[i].innerText=`new unique value ${i}.`; //String interpolation
+    console.log(boxDivs[i].innerText);
+    i++;
+}
+
 
 
 
