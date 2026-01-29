@@ -1,4 +1,3 @@
-# Learning JavaScript
+# JavaScript Notes
 
-This repository contains my practice projects and exercises as I learn JavaScript.  
-
+Folders contain practice code for different topics I learned.
