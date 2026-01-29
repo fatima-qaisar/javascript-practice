@@ -56,7 +56,7 @@ h5.innerText=h5.innerText+" from Apna College.";
 console.dir(h5.innerText);
 
 let boxDivs=document.querySelectorAll(".box");
-console.log(boxDivs[0]); //node list works like arrays. values can be accessed index wise
+console.log(boxDivs[0]); //node list works like arrays. Values can be accessed index wise
 let i=0;
 for(boxDiv of boxDivs){
     console.log(boxDiv.innerText);
