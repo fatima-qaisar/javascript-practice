@@ -6,3 +6,12 @@ div{
     border: 1px solid black;
     text-align: center;
 }
+
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+.light-theme{
+    background-color: white;
+    color: black;
+}
