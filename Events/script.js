@@ -64,13 +64,23 @@ let currentTheme = "light";
 themeBtn.addEventListener("click", () => {
     console.log("You are changing the theme.");
     if (currentTheme === "light") {
+        document.body.classList.remove("light-theme");
         document.body.classList.add("dark-theme");
         currentTheme = "dark";
     } else {
+        document.body.classList.remove("dark-theme");
         document.body.classList.add("light-theme");
         currentTheme = "light";
     }
     console.log("Current theme is:", currentTheme);
     
+});
+
+let textCoLorChanger = document.querySelector("#box");
+textCoLorChanger.addEventListener("mouseover", () => {
+    textCoLorChanger.style.color = "red";
+});
+textCoLorChanger.addEventListener("mouseout", () => {
+    textCoLorChanger.style.color = "blue";
 });
 
